@@ -1,5 +1,6 @@
 from pypandoc import convert_text
 import yaml
+import os
 
 
 def make_tex(metadata_dict, markdown_text):
@@ -13,7 +14,7 @@ def make_tex(metadata_dict, markdown_text):
         extra_args=(
             '--natbib',
             '--bibliography', 'refs.bib',
-            '--template', 'assets/template.latex',
+            '--template', os.path.join(os.getcwd(), 'assets', 'template.latex'),
             # Variables
             '-V', 'documentclass:report',
             '-V', 'classoption:a4paper',
