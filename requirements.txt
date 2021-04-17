@@ -1,0 +1,6 @@
+Flask==1.1.2
+Flask-Cors==3.0.10
+flask-restplus==0.13.0
+pypandoc==1.5
+PyYAML==5.4.1
+Werkzeug==0.16.1
