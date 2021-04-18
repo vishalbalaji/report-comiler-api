@@ -5,4 +5,4 @@ gunicorn==20.1.0
 pypandoc==1.5
 PyYAML==5.4.1
 Werkzeug==0.16.1
-pandoc-crossref
+py-pandoc-crossref
