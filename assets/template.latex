@@ -9,6 +9,7 @@
 \usepackage{booktabs}
 \usepackage{float}%
 \usepackage{subfig}
+\usepackage{multirow}
 
 \let\origfigure=\figure
 \let\endorigfigure=\endfigure
